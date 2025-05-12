@@ -11,6 +11,6 @@ log() {
         yellow)esc="\e[33m" ;;
         *)     esc="\e[0m"  ;;
     esac
-    printf "%b[%(%F %T)T] %s%b\n" "$esc" -1 "$*" "\e[0m"
+    printf "%b   %s\n" "$esc" "$*" "\e[0m"
 }
 set -euo pipefail

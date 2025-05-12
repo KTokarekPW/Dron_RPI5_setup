@@ -1,5 +1,6 @@
 # Drone RPi 5 Setup
-
+Działa 1,2,6,7
+TODO: 3,4,5,8
 ## 1  Podstawowa konfiguracja (basic setup)
 
 1. Zainstaluj **Ubuntu 24.04.2 Desktop** za pomocą *Raspberry Pi Imager*.
