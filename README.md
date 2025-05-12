@@ -39,7 +39,7 @@ TODO: 3,4,5,8
 | ----- | ------------------------ | ---------------------------------------------------------------------------------------------------------------- |
 | 0     | `liblog.sh`              | Colourful, timestamped logger sourced by every script.                                                           |
 | 1     | `1_docker.sh`            | Installs Docker Engine, builds the **inspekcja\:humble-pi5-v1** image and starts the `ros2_humble` container.    |
-| 2     | `2_remote_connection.sh` | Installs **Raspberry Pi Connect** for browser-based remote desktop and signs in.                                 |
+| 2     | `t_remote_connection.sh` | Installs **Raspberry Pi Connect** for browser-based remote desktop and signs in.                                 |
 | 3     | `3_AI_hat.sh`            | Adds Hailo APT repo, installs HailoRT 4.x, loads the PCIe overlay for the 13 TOPS AI HAT.                        |
 | 4     | `4_gpio.sh`              | Installs **libgpiod** CLI + Python bindings and sets udev rules/groups for non-root GPIO access.                 |
 | 5     | `5_camera_imx477.sh`     | Builds **libcamera** & **rpicam-apps** from source, enables the IMX477 overlay and tests with `rpicam-hello`.    |
