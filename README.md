@@ -10,10 +10,10 @@
    ```bash
    sudo apt update && sudo apt full-upgrade -y
    ```
-5. **Zainstaluj SSH:**
+5. **Zainstaluj SSH i gita:**
 
    ```bash
-   sudo apt install openssh-server
+   sudo apt install openssh-server git
    ```
 6. **Włącz SSH przy starcie:**
 
@@ -25,7 +25,11 @@
    ```bash
    ssh <hostname>@<IP>
    ```
-
+8. Sklonuj to repo
+   ```bash
+   git clone https://github.com/KNR-PW/Dron_RPI5_setup.git
+   ```
+   
 ---
 
 ## 2  Script overview
